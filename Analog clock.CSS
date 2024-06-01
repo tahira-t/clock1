@@ -1,0 +1,36 @@
+#clock{
+    position: relative;
+    /* border: 2px solid red; */
+    background: url('clock3.jpg');
+    height: 40vw;
+    width: 40vw;
+    background-size: 100%;
+    margin: auto;
+}
+#hourHand, #minuteHand, #secondHand{
+    background-color: black;
+    position: absolute;
+    border-radius: 12px;
+    transform-origin: bottom;
+
+}
+#hourHand{
+    height: 25%;
+    width: 1.5%;
+    top: 25.2%;
+    left: 49.2%;
+    
+}
+#minuteHand{
+    height: 30%;
+    width: 1.1%;
+    top: 20.5%;
+    left: 49.4%;
+   
+}
+#secondHand{
+    height: 36%;
+    width: 1.1%;
+    top: 14.45%;
+    left: 49.4%;
+}
